@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <filter id="Ellipse_1746" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#0038d1" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7521" data-name="Group 7521" transform="translate(-484 -982)">
+    <g transform="matrix(1, 0, 0, 1, 484, 982)" filter="url(#Ellipse_1746)">
+      <circle id="Ellipse_1746-2" data-name="Ellipse 1746" cx="21" cy="21" r="21" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Path_165" data-name="Path 165" transform="translate(206.496 410.868)">
+      <path id="Path_23037" data-name="Path 23037" d="M318.008,602.919a.429.429,0,0,1-.009.106,6.091,6.091,0,0,1-6.049,5.6q-.265,0-.529-.026a12.738,12.738,0,0,1-1.922-.15c-6.032-.917-10.767-6.526-12.61-11.349l-.009-.035a8.483,8.483,0,0,1,2.072-8.457,1.033,1.033,0,0,1,.573-.317c1.446-.282,2.346-.185,2.831.309l.062.079a17.7,17.7,0,0,1,2.354,4.815l.018.159a4,4,0,0,1-1.393,2.778,7.522,7.522,0,0,0,2.61,3.183,14.043,14.043,0,0,0,3.324,2.222,7.931,7.931,0,0,0,1.8-2.108,1.127,1.127,0,0,1,.168-.2,1.877,1.877,0,0,1,2.231-.185,11.539,11.539,0,0,1,1.226.758c.573.379,1.561,1.041,2.7,1.667A1.142,1.142,0,0,1,318.008,602.919Z" transform="translate(0)" fill="#e2371a"/>
+    </g>
+  </g>
+</svg>
