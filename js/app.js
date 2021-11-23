@@ -38,6 +38,26 @@ if (document.querySelector('.home-features')) {
   });
 }
 
+/* #Home Features Slider
+================================================== */
+if (document.querySelector('.longi-about .media-box')) {
+  new Swiper(".longi-about .media-box .swiper", {
+    pagination: {
+      el: ".longi-about .media-box .swiper-pagination",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1.25,
+        allowTouchMove: true
+      },
+      1024: {
+        slidesPerView: 4,
+        allowTouchMove: false
+      }
+    }
+  });
+}
+
 /* #Products Slider
 ================================================== */
 if (document.querySelector('.products-slider')) {
@@ -66,6 +86,9 @@ if (document.querySelector('.projects-slider')) {
     navigation: {
       nextEl: ".projects-slider .left",
       prevEl: ".projects-slider .right",
+    },
+    pagination: {
+      el: ".projects-slider .swiper-pagination",
     },
     breakpoints: {
       0: {
@@ -113,5 +136,25 @@ if (document.querySelector('.posts-slider')) {
         allowTouchMove: false
       }
     }
+  });
+}
+
+/* #Longi About Numbers Slider
+================================================== */
+if (document.querySelector('.longi-about .numbers')) {
+  new Swiper(".longi-about .numbers .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 3,
+        allowTouchMove: true
+      },
+      1024: {
+        slidesPerView: 5,
+        allowTouchMove: false
+      }
+    },
+    pagination: {
+      el: ".longi-about .numbers .swiper-pagination",
+    },
   });
 }
