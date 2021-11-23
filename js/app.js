@@ -38,7 +38,7 @@ if (document.querySelector('.home-features')) {
   });
 }
 
-/* #Home Features Slider
+/* #Longi Media Box Slider
 ================================================== */
 if (document.querySelector('.longi-about .media-box')) {
   new Swiper(".longi-about .media-box .swiper", {
@@ -156,5 +156,27 @@ if (document.querySelector('.longi-about .numbers')) {
     pagination: {
       el: ".longi-about .numbers .swiper-pagination",
     },
+  });
+}
+
+/* #Team Slider
+================================================== */
+if (document.querySelector('.team-slider')) {
+  new Swiper(".team-slider .swiper", {
+    loop: true,
+    navigation: {
+      nextEl: ".team-slider .left",
+      prevEl: ".team-slider .right",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        centeredSlides: false,
+      },
+      1024: {
+        slidesPerView: 5,
+        centeredSlides: true,
+      }
+    }
   });
 }
