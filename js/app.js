@@ -58,6 +58,26 @@ if (document.querySelector('.longi-about .media-box')) {
   });
 }
 
+/* #Product Features Slider
+================================================== */
+if (document.querySelector('.product-features')) {
+  new Swiper(".product-features .swiper", {
+    pagination: {
+      el: ".product-features .swiper-pagination",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1.25,
+        allowTouchMove: true
+      },
+      1024: {
+        slidesPerView: 4,
+        allowTouchMove: false
+      }
+    }
+  });
+}
+
 /* #Products Slider
 ================================================== */
 if (document.querySelector('.products-slider')) {
@@ -178,5 +198,16 @@ if (document.querySelector('.team-slider')) {
         centeredSlides: true,
       }
     }
+  });
+}
+
+/* #Product Gallery Slider
+================================================== */
+if (document.querySelector('.product-gallery')) {
+  new Swiper(".product-gallery .swiper", {
+    slidesPerView: 1,
+    pagination: {
+      el: ".product-gallery .swiper-pagination",
+    },
   });
 }
