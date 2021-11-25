@@ -15,6 +15,7 @@
 
   <!-- Style (Vendor) -->
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/elevate-framework.css">
 
   <!-- Style -->
@@ -152,7 +153,7 @@
     </div>
     <div class="container">
       <!-- Text -->
-      <div class="text">
+      <div class="text" data-aos="fade-right">
         <div class="logo">
           <img src="img/global/logo.svg" alt="rcs-logo">
         </div>
@@ -236,7 +237,7 @@
         </ul>
       </div>
       <!-- Img -->
-      <div class="img">
+      <div class="img" data-aos="fade-left">
         <!-- Slider -->
         <div class="swiper">
           <div class="swiper-wrapper">
@@ -264,10 +265,10 @@
   </div>
 
   <!-- Home Features -->
-  <div class="home-features">
+  <div class="home-features" id="homeFeatures">
     <div class="container">
       <!-- Text -->
-      <div class="text">
+      <div class="text" data-aos="fade-left" data-aos-anchor="#homeFeatures">
         <div class="logo">
           <img src="img/logos/logo-1.svg" alt="rcs-solar-img">
         </div>
@@ -293,11 +294,11 @@
         </a>
       </div>
       <!-- Slider -->
-      <div class="swiper">
+      <div class="swiper" id="homeFeaturesSwiper">
         <div class="swiper-wrapper">
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor="#homeFeatures" data-aos-delay="300">
               <img src="img/icons/icon-2.svg" alt="rcs-solar-img">
               <h3 class="f-d-18 f-m-30">יצרנית הפאנלים האמינה
                 והאיכותית בעולם</h3>
@@ -310,7 +311,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor="#homeFeatures" data-aos-delay="400">
               <img src="img/icons/icon-3.svg" alt="rcs-solar-img">
               <h3 class="f-d-18 f-m-30">יצרנית הפאנלים האמינה
                 והאיכותית בעולם</h3>
@@ -323,7 +324,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor="#homeFeatures" data-aos-delay="500">
               <img src="img/icons/icon-4.svg" alt="rcs-solar-img">
               <h3 class="f-d-18 f-m-30">יצרנית הפאנלים האמינה
                 והאיכותית בעולם</h3>
@@ -336,7 +337,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor="#homeFeatures" data-aos-delay="600">
               <img src="img/icons/icon-5.svg" alt="rcs-solar-img">
               <h3 class="f-d-18 f-m-30">יצרנית הפאנלים האמינה
                 והאיכותית בעולם</h3>
@@ -369,13 +370,13 @@
         <img src="img/home/products-slider-bg-mobile.jpg" alt="rcs-solar-img">
       </picture>
     </div>
-    <div class="container">
+    <div class="container" id="productSlider">
       <h2 class="f-d-50 f-m-50">פאנלים סולאריים שלנו </h2>
       <div class="swiper">
         <div class="swiper-wrapper">
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="product">
+            <div class="product" data-aos="flip-left" data-aos-anchor="#productSlider">
               <!-- Img -->
               <div class="img">
                 <img src="img/global/product-img.jpg" alt="rcs-solar-img">
@@ -419,7 +420,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="product">
+            <div class="product" data-aos="flip-left" data-aos-delay="200" data-aos-anchor="#productSlider">
               <!-- Img -->
               <div class="img">
                 <img src="img/global/product-img.jpg" alt="rcs-solar-img">
@@ -463,7 +464,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="product">
+            <div class="product" data-aos="flip-left" data-aos-delay="400" data-aos-anchor="#productSlider">
               <!-- Img -->
               <div class="img">
                 <img src="img/global/product-img.jpg" alt="rcs-solar-img">
@@ -523,11 +524,11 @@
     <div class="container">
       <!-- Text -->
       <div class="text">
-        <h2 class="f-d-50 f-m-50">מגוון פרויקטים מובילים</h2>
-        <p class="f-d-18 f-m-30"> קבוצת חברות בינלאומית שקיימת RCS, היא חלק מקבוצת RCS Solar פעילה בשוק.RCS 
+        <h2 class="f-d-50 f-m-50" data-aos="fade-left" data-aos-anchor="#projectsSlider">מגוון פרויקטים מובילים</h2>
+        <p class="f-d-18 f-m-30" data-aos="fade-left" data-aos-anchor="#projectsSlider"> קבוצת חברות בינלאומית שקיימת RCS, היא חלק מקבוצת RCS Solar פעילה בשוק.RCS 
           Solar  כ-25 שנה אשר מתמחה במסחר בינלאומי האנרגיה הסולארית מעל 12 שנים, עוד 
           בתחילת הפעילות בתחום בישראל</p>
-        <div class="arrows">
+        <div class="arrows" data-aos="fade-left" data-aos-anchor="#projectsSlider">
           <div class="right">
             <img src="img/icons/arrow-right.svg" alt="rcs-solar-img">
           </div>
@@ -658,7 +659,7 @@
   <div class="home-clients">
     <div class="container">
       <!-- Text -->
-      <div class="text">
+      <div class="text" data-aos="fade-left">
         <div class="logo">
           <img src="img/global/logo.svg" alt="rcs-logo">
         </div>
@@ -746,7 +747,7 @@
         <div class="swiper-wrapper">
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <!-- Img -->
               <div class="img">
                 <img src="img/home/post-img-1.jpg" alt="rcs-solar-img">
@@ -764,7 +765,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
               <!-- Img -->
               <div class="img">
                 <img src="img/home/post-img-2.jpg" alt="rcs-solar-img">
@@ -782,7 +783,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
               <!-- Img -->
               <div class="img">
                 <img src="img/home/post-img-3.jpg" alt="rcs-solar-img">
@@ -800,7 +801,7 @@
           </div>
           <!-- Slide -->
           <div class="swiper-slide">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-delay="300">
               <!-- Img -->
               <div class="img">
                 <img src="img/home/post-img-4.jpg" alt="rcs-solar-img">
@@ -1035,6 +1036,7 @@
   <script src="js/elevate-framework.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/gsap.min.js"></script>
+  <script src="js/aos.js"></script>
 
   <!-- Script -->
   <script src="js/app.js"></script>
