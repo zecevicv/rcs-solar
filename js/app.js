@@ -1,3 +1,17 @@
+/* #Header
+================================================== */
+const hamburgerBtn = document.querySelector('.header-hamburger');
+const body = document.querySelector('body');
+const header = document.querySelector('.header');
+
+if (hamburgerBtn) {
+  hamburgerBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    header.classList.toggle('show');
+    body.classList.toggle('no-scroll');
+  });
+}
+
 /* #Banner Slider
 ================================================== */
 if (document.querySelector('.banner.banner-slider')) {
