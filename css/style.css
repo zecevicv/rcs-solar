@@ -3577,3 +3577,48 @@ body {
     margin-bottom: 6.66vw;
   }
 }
+
+/* #Text Page Body
+================================================== */
+.text-page-body {
+  padding: 10vw 0 4.8vw 0;
+}
+
+.text-page-body .container {
+  width: 62.5%;
+}
+
+.text-page-body h1 {
+  line-height: 1;
+  margin-bottom: 3.65vw;
+}
+
+.text-page-body h2 {
+  line-height: 1.25;
+  margin-bottom: 1.8vw;
+}
+
+@media (min-width: 1024px) {
+  .text-page-body h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .text-page-body {
+    padding: 21.33vw 0 15vw 0;
+  }
+  
+  .text-page-body .container {
+    width: 88.8%;
+  }
+  
+  .text-page-body h1 {
+    margin-bottom: 3vw;
+  }
+  
+  .text-page-body h2 {
+    color: #8D8D8D;
+    margin-bottom: 5vw;
+  }
+}
