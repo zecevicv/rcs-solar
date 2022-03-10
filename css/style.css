@@ -3697,6 +3697,58 @@ body {
   }
 }
 
+/* #Terms
+================================================== */
+.terms {
+  padding: 10vw 0 4.8vw 0;
+}
+
+.terms .container {
+  width: 54%;
+}
+
+.terms h1 {
+  line-height: 1;
+  margin-bottom: 1vw;
+}
+
+.terms h2 {
+  line-height: 1.25;
+  margin-bottom: 1.8vw;
+}
+
+.terms ol {
+  line-height: 1.4;
+  padding-right: 19px;
+}
+
+.terms ol li:not(:last-child) {
+  margin-bottom: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .terms {
+    padding: 21.33vw 0 15vw 0;
+  }
+  
+  .terms .container {
+    width: 88.8%;
+  }
+  
+  .terms h1 {
+    margin-bottom: 3vw;
+  }
+  
+  .terms h2 {
+    color: #8D8D8D;
+    margin-bottom: 5vw;
+  }
+
+  .terms ol li:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+
 /* #Error Page
 ================================================== */
 .error {
